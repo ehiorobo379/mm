@@ -1,0 +1,84 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+section{
+	width: 500px;
+	height: 300px;
+	border-radius: 20px;
+	margin: 50px auto;
+	overflow: hidden;
+	box-shadow: 2px 2px 2px 2px black, -2px -2px 2px 2px black;
+	background-image: radial-gradient(ellipse at bottom right, #333 70%, #682200 70%, #9d3000 72%, #ccef00 74%, #ff4f00 74%);
+	-webkit-box-reflect: below 50px;
+}
+body{
+	background: #222;
+}
+.one{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.one img{
+	width: 50px;
+	margin: 15px 0 0 20px;
+}
+.one h2{
+	font-family: fantasy;
+	margin: -10px 0 0 20px;
+	color: white;
+	filter: drop-shadow(1px 2px 0 black);
+}
+.da{
+	width: 70%;
+	font-family: sans-serif;
+	color: white;
+	padding: 20px;
+	margin: 40px 0 0 0;
+	float: left;
+	clip-path: ellipse(100% 100% at 54% 100%);
+}
+.da img{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 20px solid;
+	border-color: #ff5200 #ff5200 transparent transparent;
+	shape-outside: circle();
+	float: left;
+	margin: 50px 0 0 -160px;
+}
+.da div h1,
+.da div>small{
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+.da div>small{
+	font-weight: bold;
+	color: #ff5200;
+}
+.da div p{
+	width: 70%;
+	padding: 5px;
+	display: flex;
+	margin: 8px auto;
+}
+.da div p i{
+	font-size: 25px;
+	width: 40px;
+	height: 40px;
+	line-height: 23px;
+	border-radius: 6px;
+	margin: 0 0 0 10px;
+	padding: 10px;
+	background: #ff5200;
+}
+.da div p span{
+	width: 70%;
+	height: 100%;
+	text-align: right;
+}
